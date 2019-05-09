@@ -291,7 +291,7 @@
             this.label3.Font = new System.Drawing.Font("Trebuchet MS", 8.142858F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label3.Location = new System.Drawing.Point(1612, 587);
             this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(195, 35);
+            this.label3.Size = new System.Drawing.Size(228, 35);
             this.label3.TabIndex = 22;
             this.label3.Text = "Number of Clicks: ";
             this.label3.Click += new System.EventHandler(this.button3_Click);

@@ -70,6 +70,7 @@ namespace MatchingGameFinalProject
                 var ssTime = TimeSpan.FromSeconds(time).TotalSeconds;
 
                 label1.Text = "Time: " + time.ToString();
+                
             };
         }
         #endregion
@@ -170,7 +171,7 @@ namespace MatchingGameFinalProject
 
             firstGuess = null;
             if (pictureBoxes.Any(p => p.Visible)) return;
-            MessageBox.Show("Congratulations, you won in " + TimeSpan.FromSeconds(time).TotalSeconds + " Seconds");
+            MessageBox.Show("Congratulations, you won in " + TimeSpan.FromSeconds(time).TotalSeconds + " Seconds and " + counter.ToString() + " Clicks" );
             ResetImages();
         }
         #endregion
